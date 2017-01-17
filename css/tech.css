@@ -26,14 +26,6 @@ body {
 	padding: 30px;
 }
 
-.ensimmäinen h1 {
-	font-size: 30px;
-}
-
-.ensimmäinen p {
-	font-size: 17px;
-}
-
 .jumbotron {
 	margin-bottom: 0px;
 	padding: 20px;
@@ -41,6 +33,15 @@ body {
 
 .jumbotron p {
 	text-align: center;
+	margin-top: 30px;
+}
+
+.ensimmäinen h1 {
+	font-size: 30px;
+}
+
+.ensimmäinen p {
+	font-size: 17px;
 }
 
 .ensimmäinen img {
