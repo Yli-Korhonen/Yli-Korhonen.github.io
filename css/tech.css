@@ -1,0 +1,59 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#suositukset {
+	text-align: center;
+}
+
+#kamerat {
+	text-align: center;
+	background-color: slategrey;
+	padding: 30px;
+}
+
+#puhelimet {
+	text-align: center;
+	background-color: #eee;
+	padding: 30px;
+}
+
+#tietokoneet {
+	text-align: center;
+	background-color: slategrey;
+	padding: 30px;
+}
+
+.ensimmäinen h1 {
+	font-size: 30px;
+}
+
+.ensimmäinen p {
+	font-size: 17px;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+	padding: 20px;
+}
+
+.jumbotron p {
+	text-align: center;
+}
+
+.ensimmäinen img {
+	height: 150px;
+	width: 150px;
+}
+
+.toinen img {
+	height: 150px;
+	width: 150px;
+}
+
+.kolmas img {
+	height: 150px;
+	width: 150px;
+}
