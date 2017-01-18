@@ -39,7 +39,7 @@ body {
 .modal-dialog {
 	position: absolute;
 	left: 50%;
-	margin-left: -150px;
+	margin-left: -160px;
 	top: 50%;
 	margin-top: -50px;
 }
