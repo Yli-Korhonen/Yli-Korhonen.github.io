@@ -36,6 +36,14 @@ body {
 	margin-top: 30px;
 }
 
+.modal-dialog {
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+	margin-top: -50px;
+}
+
 .ensimmäinen h1 {
 	font-size: 30px;
 }
