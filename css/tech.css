@@ -26,9 +26,22 @@ body {
 	padding: 30px;
 }
 
+.navbar-header {
+	letter-spacing: 3px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: gainsboro;
+}
+
 .jumbotron {
+	font-family: 'Overpass Mono', monospace;
 	margin-bottom: 0px;
 	padding: 20px;
+}
+
+.jumbotron h1 {
+	font-size: 35px;
 }
 
 .jumbotron p {
