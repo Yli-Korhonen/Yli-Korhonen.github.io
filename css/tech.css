@@ -44,11 +44,6 @@ body {
 	font-size: 35px;
 }
 
-.jumbotron p {
-	text-align: center;
-	margin-top: 30px;
-}
-
 .modal-dialog {
 	position: absolute;
 	left: 50%;
