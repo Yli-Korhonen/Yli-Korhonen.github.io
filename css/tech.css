@@ -10,7 +10,7 @@ body {
 
 #kamerat {
 	text-align: center;
-	background-color: slategrey;
+	background-color: burlywood;
 	padding: 30px;
 }
 
@@ -22,7 +22,7 @@ body {
 
 #tietokoneet {
 	text-align: center;
-	background-color: slategrey;
+	background-color: burlywood;
 	padding: 30px;
 }
 
@@ -32,16 +32,32 @@ body {
 
 .navbar-inverse .navbar-brand {
     color: gainsboro;
+    font-size: 25px;
+    font-weight: 200;
 }
 
 .jumbotron {
 	font-family: 'Overpass Mono', monospace;
 	margin-bottom: 0px;
 	padding: 20px;
+	background-image: url(../images/testikuva2.png);
 }
 
 .jumbotron h1 {
 	font-size: 35px;
+	color: burlywood;
+}
+
+.jumbotron h2 {
+	color: burlywood;
+}
+
+.suositukset {
+	text-align: center;
+}
+
+.suositukset h1 {
+	color: #eee;
 }
 
 .modal-dialog {
