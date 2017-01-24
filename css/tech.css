@@ -1,7 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
 }
 
 #suositukset {
@@ -44,19 +43,23 @@ body {
 }
 
 .jumbotron {
-	font-family: 'Overpass Mono', monospace;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 	margin-bottom: 0px;
 	padding: 20px;
-	background-image: url(../images/puutausta2.png);
+	background-image: url(../images/taustakuva2.jpg);
 }
 
 .jumbotron h1 {
-	font-size: 35px;
-	color: burlywood;
+	font-size: 45px;
+	font-weight: 700;
+	color: black;
 }
 
 .jumbotron h2 {
-	color: burlywood;
+	color: black;
+	font-size: 35px;
+	font-weight: 700;
 }
 
 .suositukset {
@@ -64,7 +67,12 @@ body {
 }
 
 .suositukset h1 {
-	color: #eee;
+	color: black;
+}
+
+.suositukset h2 {
+	color: black;
+	background-color: burlywood;
 }
 
 .modal-dialog {
@@ -101,6 +109,10 @@ body {
 .kolmas img {
 	height: 150px;
 	width: 150px;
+}
+
+#footer {
+	background-color: #eee;
 }
 
 .footer p {
