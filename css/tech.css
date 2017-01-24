@@ -8,19 +8,25 @@ body {
 	text-align: center;
 }
 
-#kamerat {
+#ensimmäinen {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 	text-align: center;
 	background-color: burlywood;
 	padding: 30px;
 }
 
-#puhelimet {
+#toinen {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 	text-align: center;
 	background-color: #eee;
 	padding: 30px;
 }
 
-#tietokoneet {
+#kolmas {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
 	text-align: center;
 	background-color: burlywood;
 	padding: 30px;
@@ -32,8 +38,9 @@ body {
 
 .navbar-inverse .navbar-brand {
     color: gainsboro;
-    font-size: 25px;
-    font-weight: 200;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Pacifico', cursive;
 }
 
 .jumbotron {
@@ -69,16 +76,17 @@ body {
 }
 
 .ensimmäinen h1 {
-	font-size: 30px;
+	font-size: 25px;
 }
 
-.ensimmäinen p {
-	font-size: 17px;
-}
 
 .ensimmäinen img {
 	height: 150px;
 	width: 150px;
+}
+
+.toinen h1 {
+	font-size: 25px;
 }
 
 .toinen img {
@@ -86,7 +94,15 @@ body {
 	width: 150px;
 }
 
+.kolmas h1 {
+	font-size: 25px;
+}
+
 .kolmas img {
 	height: 150px;
 	width: 150px;
+}
+
+.footer p {
+	font-family: 'Pacifico', cursive;
 }

@@ -20,8 +20,11 @@
     <!-- Custom styles for this template -->
     <link href="css/tech.css" rel="stylesheet">
 
-    <!-- Overpass Mono fontti Google fontista-->
+    <!-- Overpass Mono, Pacifico ja Lato fontti Google fontista-->
     <link href="https://fonts.googleapis.com/css?family=Overpass+Mono" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -59,50 +62,48 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Hyviä tarjouksia<br>Kiinnostavia tuotteita<br></h1>
-        <h2>Etsimme ne puolestasi.</h2>
+        <h2>Etsimme ne puolestasi</h2>
       </div>
-
-      <br>
 
       <div class="container suositukset">
         <h1>Ylläpidon suositukset</h1>
         <!-- Parhaimmat tarjoukset -->
         <div class="row">
           <div class="col-md-3">
-            <a href="https://www.jimms.fi" target="blank"><img src="images/camera.jpg" height="100" width="100"></a>
-            <h1> Sonyn kamera </h1>
+            <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a>
+            <h1> Tuotteen nimi </h1>
           </div>
           <div class="col-md-3">
-            <a href="https://www.google.fi" target="blank"><img src="images/camera.jpg" height="100" width="100"></a>
-            <h1> Sonyn kamera </h1>
+            <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a>
+            <h1> Tuotteen nimi </h1>
           </div>
           <div class="col-md-3">
-            <a href="https://www.verkkokauppa.fi" target="blank"><img src="images/camera.jpg" height="100" width="100"></a> 
-            <h1> Sonyn kamera </h1>
+            <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a> 
+            <h1> Tuotteen nimi </h1>
           </div>
           <div class="col-md-3">
-            <a href="https://www.google.fi" target="blank"><img src="images/camera.jpg" height="100" width="100"></a>
-            <h1> Sonyn kamera </h1>
+            <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a>
+            <h1> Tuotteen nimi </h1>
           </div>    
         </div>
       </div>
     </div>
 
-    <div id="kamerat">
+    <div id="ensimmäinen">
       <div class="container ensimmäinen">
         <div class="row">
           <div class="col-md-3">
-            <img src="images/camera.jpg" alt="testikuva">
-              <h1>Tässä on hieno kamera</h1>
+            <img src="images/white.jpg" alt="tuotekuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
-              <p><a href="#testi" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Lue lisää</a></p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-1">Lue lisää</a></p>
               <!-- Modal -->
-              <div class="modal fade bs-modal-sm" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal fade bs-modal-sm" id="modal-1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog modal-sm" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="testi">Tiedot</h4>
+                      <h4 class="modal-title">Tiedot</h4>
                     </div>
                     <div class="modal-body">
                       Tämä on testikirjoitus, jossa voisi esiintyä tarkempia tuotetietoja ja arvostelu tuotteesta.
@@ -111,20 +112,42 @@
                   </div>
                 </div>
               </div>
-              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
+              <p><a href="https://www.google.fi" target="blank" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/camera.jpg" alt="testikuva">
-              <h1>Tässä on hieno kamera</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
-              <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Lue lisää</a></p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-2">Lue lisää</a></p>
               <!-- Modal -->
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
+              <div class="modal fade bs-modal-sm" id="modal-2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabel">Tiedot</h4>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Tämä on testikirjoitus, jossa voisi esiintyä tarkempia tuotetietoja ja arvostelu tuotteesta. Onko tässä nyt eri teksti?
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
+          </div>
+          <div class="col-sm-6 col-md-3">
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
+              <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-3">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
                     </div>
                     <div class="modal-body">
                       Tämä on testikirjoitus, jossa voisi esiintyä tarkempia tuotetietoja ja arvostelu tuotteesta
@@ -136,42 +159,20 @@
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/camera.jpg" alt="testikuva">
-              <h1>Tässä on hieno kamera</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
-              <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Lue lisää</a></p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-4">Lue lisää</a></p>
               <!-- Modal -->
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
+              <div class="modal fade bs-modal-sm" id="modal-4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabel">Tiedot</h4>
+                      <h4 class="modal-title">Tiedot</h4>
                     </div>
                     <div class="modal-body">
-                      Tämä on testikirjoitus, jossa voisi esiintyä tarkempia tuotetietoja ja arvostelu tuotteesta
-                    </div>
-                    <div class="modal-footer"></div>
-                  </div>
-                </div>
-              </div>
-              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img src="images/camera.jpg" alt="testikuva">
-              <h1>Tässä on hieno kamera</h1>
-              <p>Tämä on testi kirjoitus</p>
-              <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Lue lisää</a></p>
-              <!-- Modal -->
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabel">Tiedot</h4>
-                    </div>
-                    <div class="modal-body">
-                      Tämä on testikirjoitus, jossa voisi esiintyä tarkempia tuotetietoja ja arvostelu tuotteesta
+                      Ensimmäisen rivin viimeinen modal.
                     </div>
                     <div class="modal-footer"></div>
                   </div>
@@ -180,19 +181,22 @@
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
         </div>
+
+        <br>
+
         <div class="row">
           <div class="col-sm-6 col-md-3">
-            <img src="images/camera.jpg" alt="testikuva">
-              <h1>Tässä on hieno kamera</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
-              <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Lue lisää</a></p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-5">Lue lisää</a></p>
               <!-- Modal -->
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
+              <div class="modal fade bs-modal-sm" id="modal-5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabel">Tiedot</h4>
+                      <h4 class="modal-title">Tiedot</h4>
                     </div>
                     <div class="modal-body">
                       Tämä on testikirjoitus, jossa voisi esiintyä tarkempia tuotetietoja ja arvostelu tuotteesta
@@ -204,17 +208,17 @@
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/camera.jpg" alt="testikuva">
-              <h1>Tässä on hieno kamera</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
-              <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Lue lisää</a></p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-6">Lue lisää</a></p>
               <!-- Modal -->
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
+              <div class="modal fade bs-modal-sm" id="modal-6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabel">Tiedot</h4>
+                      <h4 class="modal-title">Tiedot</h4>
                     </div>
                     <div class="modal-body">
                       Tämä on testikirjoitus, jossa voisi esiintyä tarkempia tuotetietoja ja arvostelu tuotteesta
@@ -226,17 +230,17 @@
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/camera.jpg" alt="testikuva">
-              <h1>Tässä on hieno kamera</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
-              <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Lue lisää</a></p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-7">Lue lisää</a></p>
               <!-- Modal -->
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
+              <div class="modal fade bs-modal-sm" id="modal-7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabel">Tiedot</h4>
+                      <h4 class="modal-title">Tiedot</h4>
                     </div>
                     <div class="modal-body">
                       Tämä on testikirjoitus, jossa voisi esiintyä tarkempia tuotetietoja ja arvostelu tuotteesta
@@ -248,20 +252,20 @@
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/camera.jpg" alt="testikuva">
-              <h1>Tässä on hieno kamera</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
-              <p><a href="#" class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">Lue lisää</a></p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-8">Lue lisää</a></p>
               <!-- Modal -->
-              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                <div class="modal-dialog" role="document">
+              <div class="modal fade bs-modal-sm" id="modal-8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                      <h4 class="modal-title" id="myModalLabel">Tiedot</h4>
+                      <h4 class="modal-title">Tiedot</h4>
                     </div>
                     <div class="modal-body">
-                      Tämä on testikirjoitus, jossa voisi esiintyä tarkempia tuotetietoja ja arvostelu tuotteesta
+                      Toisen rivin viimeinen modal.
                     </div>
                     <div class="modal-footer"></div>
                   </div>
@@ -273,108 +277,386 @@
       </div>
     </div>
 
-    <div id="puhelimet">
+    <div id="toinen">
       <div class="container toinen">
         <div class="row">
           <div class="col-sm-6 col-md-3">
-            <img src="images/smartphone.jpg" alt="testikuva">
-              <h1>Tässä on hieno älypuhelin</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-9">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/smartphone.jpg" alt="testikuva">
-              <h1>Tässä on hieno älypuhelin</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-10">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/smartphone.jpg" alt="testikuva">
-              <h1>Tässä on hieno älypuhelin</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-11">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/smartphone.jpg" alt="testikuva">
-              <h1>Tässä on hieno älypuhelin</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-12">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
         </div>
+
+        <br>
+
         <div class="row">
           <div class="col-sm-6 col-md-3">
-            <img src="images/smartphone.jpg" alt="testikuva">
-              <h1>Tässä on hieno älypuhelin</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-13">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/smartphone.jpg" alt="testikuva">
-              <h1>Tässä on hieno älypuhelin</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-14">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/smartphone.jpg" alt="testikuva">
-              <h1>Tässä on hieno älypuhelin</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-15">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/smartphone.jpg" alt="testikuva">
-              <h1>Tässä on hieno älypuhelin</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-16">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-16" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="tietokoneet">
+    <div id="kolmas">
       <div class="container kolmas">
         <div class="row">
           <div class="col-sm-6 col-md-3">
-            <img src="images/computertest.png" alt="testikuva">
-              <h1>Tässä on hieno tietokone</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-17">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-17" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/computertest.png" alt="testikuva">
-              <h1>Tässä on hieno tietokone</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-18">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-18" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/computertest.png" alt="testikuva">
-              <h1>Tässä on hieno tietokone</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-19">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-19" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/computertest.png" alt="testikuva">
-              <h1>Tässä on hieno tietokone</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-20">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-20" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
         </div>
+
+        <br>
+
         <div class="row">
           <div class="col-sm-6 col-md-3">
-            <img src="images/computertest.png" alt="testikuva">
-              <h1>Tässä on hieno tietokone</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-21">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-21" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/computertest.png" alt="testikuva">
-              <h1>Tässä on hieno tietokone</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-22">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/computertest.png" alt="testikuva">
-              <h1>Tässä on hieno tietokone</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-23">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Toisen rivin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
           <div class="col-sm-6 col-md-3">
-            <img src="images/computertest.png" alt="testikuva">
-              <h1>Tässä on hieno tietokone</h1>
+            <img src="images/white.jpg" alt="testikuva">
+              <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
+              <p><a class="btn btn-primary" role="button" data-toggle="modal" data-target="#modal-24">Lue lisää</a></p>
+              <!-- Modal -->
+              <div class="modal fade bs-modal-sm" id="modal-24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title">Tiedot</h4>
+                    </div>
+                    <div class="modal-body">
+                      Viimeisen virin viimeinen modal.
+                    </div>
+                    <div class="modal-footer"></div>
+                  </div>
+                </div>
+              </div>
+              <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
         </div>
       </div>
     </div>
 
-      <hr>
-    <div class="container">
+    <div class="container footer">
 
       <footer>
+      <br>
         <p>Tekniikkadiilit</p>
       </footer>
     </div> <!-- /container -->
