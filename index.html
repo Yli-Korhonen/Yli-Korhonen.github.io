@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
-    <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
     <title>Tekniikkadiilit.fi</title>
+
+    <meta property="og:url"                content="https://yli-korhonen.github.io/" />
+    <meta property="og:type"               content="website" />
+    <meta property="og:title"              content="tekniikkadiilit" />
+    <meta property="og:description"        content="Kiinnostavia tekniikkatarjouksia" />
+    <meta property="og:image"              content="https://yli-korhonen.github.io/images/taustakuva2.jpg" />
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -66,34 +71,76 @@
         <h2>Etsimme ne puolestasi</h2>
       </div>
 
-      <div class="container suositukset">
-        <h1>Ylläpidon suositukset</h1>
-        <!-- Parhaimmat tarjoukset -->
-        <div class="row">
-          <div class="col-md-3">
-            <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a>
-            <h2> Tuotteen nimi </h2>
+      <div class="container carousel">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="row">
+              <div class="col-xs-3 col-sm-3 col-md-3">
+                <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a>
+                <h2> Tuotteen nimi </h2>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3">
+                <a href="" target="blank"><img src="images/taustakuva2.jpg" height="100" width="100"></a>
+                <h2> Tuotteen nimi </h2>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3">
+                <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a> 
+                <h2> Tuotteen nimi </h2>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3">
+                <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a>
+                <h2> Tuotteen nimi </h2>
+              </div>    
+            </div>
           </div>
-          <div class="col-md-3">
-            <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a>
-            <h2> Tuotteen nimi </h2>
+          <div class="item">
+            <div class="row">
+              <div class="col-xs-3 col-sm-3 col-md-3">
+                <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a>
+                <h2> Tuotteen nimi </h2>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3">
+                <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a>
+                <h2> Tuotteen nimi </h2>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3">
+                <a href="" target="blank"><img src="images/taustakuva2.jpg" height="100" width="100"></a> 
+                <h2> Tuotteen nimi </h2>
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-3">
+                <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a>
+                <h2> Tuotteen nimi </h2>
+              </div>    
+            </div>
           </div>
-          <div class="col-md-3">
-            <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a> 
-            <h2> Tuotteen nimi </h2>
-          </div>
-          <div class="col-md-3">
-            <a href="" target="blank"><img src="images/white.jpg" height="100" width="100"></a>
-            <h2> Tuotteen nimi </h2>
-          </div>    
         </div>
       </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Edellinen</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Seuraava</span>
+        </a>
     </div>
+  </div>
 
     <div id="ensimmäinen">
       <div class="container ensimmäinen">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="tuotekuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -115,7 +162,7 @@
               </div>
               <p><a href="https://www.google.fi" target="blank" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -137,7 +184,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -159,7 +206,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -186,7 +233,7 @@
         <br>
 
         <div class="row">
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -208,7 +255,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -230,7 +277,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -252,7 +299,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -281,7 +328,7 @@
     <div id="toinen">
       <div class="container toinen">
         <div class="row">
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -303,7 +350,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -325,7 +372,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -347,7 +394,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -374,7 +421,7 @@
         <br>
 
         <div class="row">
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -396,7 +443,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -418,7 +465,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -440,7 +487,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -469,7 +516,7 @@
     <div id="kolmas">
       <div class="container kolmas">
         <div class="row">
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -491,7 +538,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -513,7 +560,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -535,7 +582,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -562,7 +609,7 @@
         <br>
 
         <div class="row">
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -584,7 +631,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -606,7 +653,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -628,7 +675,7 @@
               </div>
               <p><a href="#" class="btn btn-default" role="button">Siirry ostamaan</a></p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-xs-3 col-sm-3 col-md-3">
             <img src="images/white.jpg" alt="testikuva">
               <h1>Tuotteen nimi</h1>
               <p>Tämä on testi kirjoitus</p>
@@ -657,8 +704,18 @@
     <div id="footer">
       <div class="container footer">
         <footer>
-         <br>
-          <p>Tekniikkadiilit</p>
+          <!-- I got these buttons from simplesharebuttons.com -->
+          <div id="share-buttons">
+            <p> Jaa sivu:
+              <!-- Facebook -->
+              <a href="http://www.facebook.com/sharer.php?u=https://www.tekniikkadiilit.fi/" target="blank">
+                  <img src="images/facebook.png" alt="Facebook"/></a>
+              <!-- Twitter -->
+              <a href="https://twitter.com/share?url=https://www.tekniikkadiilit.fi/&amp;text=Tekniikkadiilit&amp;hashtags=tarjoukset" target="blank">
+                  <img src="images/twitter.png" alt="Twitter"/></a>
+            </p>
+          </div>
+          <h1>Tekniikkadiilit</h1>
         </footer>
       </div> <!-- /container -->
     </div>

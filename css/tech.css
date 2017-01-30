@@ -3,10 +3,6 @@ body {
   padding-top: 50px;
 }
 
-#suositukset {
-	text-align: center;
-}
-
 #ensimmäinen {
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
@@ -75,12 +71,21 @@ body {
 	background-color: burlywood;
 }
 
+.carousel {
+	text-align: center;
+}
+
 .modal-dialog {
 	position: absolute;
 	left: 50%;
 	margin-left: -160px;
 	top: 50%;
 	margin-top: -50px;
+}
+
+.ensimmäinen .row .col-md-3 {
+	border: 3px solid;
+	border-radius: 15px;
 }
 
 .ensimmäinen h1 {
@@ -93,6 +98,11 @@ body {
 	width: 150px;
 }
 
+.toinen .row .col-md-3 {
+	border: 3px solid;
+	border-radius: 15px;
+}
+
 .toinen h1 {
 	font-size: 25px;
 }
@@ -100,6 +110,11 @@ body {
 .toinen img {
 	height: 150px;
 	width: 150px;
+}
+
+.kolmas .row .col-md-3 {
+	border: 3px solid;
+	border-radius: 15px;
 }
 
 .kolmas h1 {
@@ -115,6 +130,23 @@ body {
 	background-color: #eee;
 }
 
-.footer p {
+.footer h1 {
 	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+}
+
+.footer p {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+/* Etusivu */
+
+#share-buttons img {
+	width: 45px;
+	padding: 5px;
+	border: 0;
+	box-shadow: 0;
+	display: inline;
+	vertical-align: top;
 }
