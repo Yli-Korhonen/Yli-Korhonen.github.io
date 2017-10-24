@@ -188,14 +188,28 @@ img {
 		margin: 0 0 0 0;
 	}
 
+
+	
+
 }
 
 @media screen and (max-width : 768px) {
 
+	
 
 
-}
-
-@media screen and (max-width : 568px) {
 
 }
+
+@media screen and (max-width : 405px) {
+
+	.navbar-brand img {
+		margin-top: 0;
+	}
+
+	.navbar-brand {
+		width: 60%;
+	}
+
+}
+568
