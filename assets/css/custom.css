@@ -8,18 +8,13 @@ Värit:
 body {
 	padding-top: 50px;
 	background-color: whitesmoke;
-	font-family: 'Lato:', sans-serif;
+	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
 	font-weight: 700;
 }
 
-.navbar-inverse .navbar-brand {
-	font-weight: 900;
-	font-size: 25px;
-	color: white;
-}
-
 .navbar-inverse {
-	font-size: 20px;
+	font-size: 15px;
+	font-weight: 400;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -30,6 +25,10 @@ body {
 	background-color: black;
 	color: white;
 	padding-bottom: 20px;
+}
+
+.navbar-brand img {
+	margin-top: -15px;
 }
 
 h1 {
@@ -69,7 +68,6 @@ a:link, a:visited {
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	box-shadow: 0px 2px 5px #999;
 }
 
 .widget p {
@@ -95,10 +93,11 @@ a:link, a:visited {
 input[type="text"] {
 	color: gray;
 	position: relative;
-	border-radius: 5px;
-	box-shadow: 0px 2px 5px #999;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
 	position: relative;
-	border: 1px solid;
+	border: 1px dotted;
 	text-align: center;
 	width: 90%;
 }
@@ -113,7 +112,7 @@ input[type="text"] {
 }
 
 #alkuosa h1, h3 {
-	text-shadow: 0px 5px 10px #0027ff;
+	text-shadow: 0px 5px 10px #0091d5;
 	color: gainsboro;
 }
 
@@ -186,6 +185,7 @@ img {
 
 	.tarjous {
 		width: 100%;
+		margin: 0 0 0 0;
 	}
 
 }
