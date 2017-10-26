@@ -71,8 +71,15 @@ a:link, a:visited {
 	-moz-border-radius: 5px;
 }
 
+.widget h1 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
 .widget p {
 	padding: 5px;
+	margin: 0;
+	font-weight: 400;
 }
 
 .widget h4 {
@@ -190,6 +197,14 @@ img {
 
 	.tarjous {
 		width: 100%;
+	}
+
+	#alkuosa {
+		margin-bottom: 0;
+	}
+
+	#ylaosa {
+		padding-bottom: 5px;
 	}
 
 
